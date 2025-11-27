@@ -15,3 +15,4 @@ python3 ./kvclient.py --nodes 192.168.123.2:8001,192.168.123.3:8002,192.168.123.
 
 # Read the key from ALL nodes after the race
 python3 ./kvclient.py --nodes 192.168.123.2:8001,192.168.123.3:8002,192.168.123.4:8003  getall color
+
